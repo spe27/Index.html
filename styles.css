@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Arial, sans-serif;
+    background-color: #72d7e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #3496b4; 
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #a445b8; 
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #bb1b50; 
+}
+.header-image {
+    margin-top: 20px;
+    text-align: center;
+}
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-button {
+    text-decoration: none;
+    background-color: #95d0e4; 
+    color: #490f6b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-button:hover {
+    background-color: #87ceeb; 
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+}
+.content-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.content-block img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+.content-block p {
+    flex: 1;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.reverse img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+footer {
+    background-color: #72d7e9;
+    padding: 20px;
+    text-align: center;
+}
+.feedback-section {
+    margin-top: 20px;
+}
+.feedback-section label {
+    font-weight: bold;
+}
+.feedback-section select {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.quote-section .quote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #60189b; 
+    margin-right: 20px;
+    flex: 1;
+}
+.quote-section img {
+    max-width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
