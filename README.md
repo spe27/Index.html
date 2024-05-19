@@ -17,10 +17,8 @@
                 <li><a href="page3.html">Page 3</a></li>
             </ul>
         </nav>
-    </header>
     <div class="header-image">
         <img src="dock-1365387_640.jpg" alt="Header Image">
     </div>
-</header>
 </body>
 </html>
